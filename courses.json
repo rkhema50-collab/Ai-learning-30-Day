@@ -1,0 +1,645 @@
+{
+  "meta": {
+    "title": "30-Day AI Learning Plan",
+    "subtitle": "Prompt Engineering + AI Content Creation",
+    "totalDays": 30,
+    "totalWeeks": 4,
+    "lastUpdated": "2026-06-19"
+  },
+  "weeks": [
+    {
+      "id": 0,
+      "label": "Week 1",
+      "title": "Foundations",
+      "subtitle": "How AI works + your first prompts",
+      "color": "#4F8EF7",
+      "days": "1-7"
+    },
+    {
+      "id": 1,
+      "label": "Week 2",
+      "title": "Advanced Prompting",
+      "subtitle": "Chain-of-thought, personas, templates & systems",
+      "color": "#3FC98A",
+      "days": "8-14"
+    },
+    {
+      "id": 2,
+      "label": "Week 3",
+      "title": "AI Content Creation",
+      "subtitle": "Blogs, social media, video & images",
+      "color": "#F7A74F",
+      "days": "15-21"
+    },
+    {
+      "id": 3,
+      "label": "Week 4",
+      "title": "Mastery & Real-World Use",
+      "subtitle": "Workflows, tools ecosystem & real projects",
+      "color": "#A97CF8",
+      "days": "22-30"
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "week": 0,
+      "title": "What is AI & how do LLMs work?",
+      "description": "Start with the most important question: how does this technology actually work? You don't need to understand the math — just the intuition.",
+      "course": {
+        "name": "How Large Language Models Work",
+        "by": "3Blue1Brown · YouTube",
+        "free": true,
+        "duration": "27 min",
+        "url": "https://www.youtube.com/watch?v=wjZofJX0v4M",
+        "description": "The best visual explanation of how neural networks and LLMs predict text. No math required — pure intuition."
+      },
+      "tasks": [
+        "Watch the video once fully, then re-watch the key sections",
+        "Write 5 sentences explaining AI to a friend in your own words",
+        "Open Claude or ChatGPT and say hello — try your first prompt"
+      ],
+      "tip": "Don't overthink the tech. Focus on the concept of 'predicting next words based on patterns.'"
+    },
+    {
+      "day": 2,
+      "week": 0,
+      "title": "Your first prompts",
+      "description": "Now that you know how AI works, it's time to actually use it. Write as many prompts as possible today — quality comes from quantity at this stage.",
+      "course": {
+        "name": "Introduction to Generative AI",
+        "by": "Google Cloud · Free",
+        "free": true,
+        "duration": "45 min",
+        "url": "https://www.cloudskillsboost.google/course_templates/536",
+        "description": "Google's beginner-friendly intro covering what generative AI is, how it works, and its real-world applications."
+      },
+      "tasks": [
+        "Complete Google's Intro to Generative AI course",
+        "Write 10 different prompts on topics you care about",
+        "Note which responses felt useful vs. vague — save your best 3"
+      ],
+      "tip": "The quality of your output is directly tied to the clarity of your input."
+    },
+    {
+      "day": 3,
+      "week": 0,
+      "title": "Prompt anatomy — role, context, task",
+      "description": "The single framework that will improve every prompt you write: every strong prompt has three parts. Learn this once and use it forever.",
+      "course": {
+        "name": "Prompt Engineering for ChatGPT",
+        "by": "Vanderbilt University · Coursera",
+        "free": true,
+        "duration": "Modules 1–2 (~2 hrs)",
+        "url": "https://www.coursera.org/learn/prompt-engineering",
+        "description": "Dr. Jules White's university course. Modules 1 and 2 cover prompt patterns and the core structure framework."
+      },
+      "tasks": [
+        "Complete Modules 1 & 2 of the Vanderbilt course",
+        "Rewrite 3 of your Day 2 prompts using Role + Context + Task",
+        "Compare old vs. new outputs — document what changed"
+      ],
+      "tip": "Example: 'You are a marketing expert [role]. I run a small bakery [context]. Write 5 Instagram captions [task].'"
+    },
+    {
+      "day": 4,
+      "week": 0,
+      "title": "Zero-shot vs few-shot prompting",
+      "description": "Two of the most important prompting techniques. Zero-shot = no examples. Few-shot = you show AI what you want first.",
+      "course": {
+        "name": "ChatGPT Prompt Engineering for Developers",
+        "by": "DeepLearning.AI + OpenAI · Free",
+        "free": true,
+        "duration": "~1 hr",
+        "url": "https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/",
+        "description": "Taught by Andrew Ng & Isa Fulford from OpenAI. Covers zero-shot, few-shot, and core prompting best practices."
+      },
+      "tasks": [
+        "Complete the full DeepLearning.AI short course",
+        "Write one zero-shot and one few-shot prompt for the same task",
+        "Document which gave better results and why"
+      ],
+      "tip": "Few-shot prompting often dramatically improves output quality for creative or structured tasks."
+    },
+    {
+      "day": 5,
+      "week": 0,
+      "title": "Output formats & structure",
+      "description": "AI can respond in almost any format — but only if you ask. Today you'll master output control: tables, bullets, JSON, markdown, and length constraints.",
+      "course": {
+        "name": "Generative AI: Prompt Engineering Basics",
+        "by": "IBM · Coursera (free audit)",
+        "free": true,
+        "duration": "~2 hrs",
+        "url": "https://www.coursera.org/learn/generative-ai-prompt-engineering-for-everyone",
+        "description": "IBM's 4.8-star rated course (351k+ learners). Covers prompt techniques, output formatting, and structured response best practices."
+      },
+      "tasks": [
+        "Complete the IBM course section on output formats",
+        "Ask AI to respond in bullets, tables, JSON, and markdown for the same prompt",
+        "Practice specifying length: '200 words max', '5 bullet points'"
+      ],
+      "tip": "AI can mimic almost any format — you just have to ask explicitly."
+    },
+    {
+      "day": 6,
+      "week": 0,
+      "title": "Iterate & refine prompts",
+      "description": "Prompting is a conversation, not a one-shot request. Today you learn the art of iteration — how to go from a good prompt to a great one in 3–5 follow-ups.",
+      "course": {
+        "name": "Anthropic's Prompt Engineering Guide",
+        "by": "Anthropic · Free documentation",
+        "free": true,
+        "duration": "30–45 min read",
+        "url": "https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview",
+        "description": "Anthropic's official guide on writing better prompts for Claude. Covers iteration, clarity, and the most common mistakes."
+      },
+      "tasks": [
+        "Read the full Anthropic prompt engineering guide",
+        "Pick one topic and write 5 different prompt variations",
+        "Build your first prompt bank with 10+ entries in a doc"
+      ],
+      "tip": "Prompting is a conversation. Iteration is the skill — not writing the perfect prompt on the first try."
+    },
+    {
+      "day": 7,
+      "week": 0,
+      "title": "Week 1 review & reflection",
+      "description": "Don't skip this day. Reflection is what turns practice into skill. Review everything you've learned and set yourself up for Week 2.",
+      "course": {
+        "name": "AI For Everyone — Week 1",
+        "by": "Andrew Ng · Coursera (free audit)",
+        "free": true,
+        "duration": "~1 hr",
+        "url": "https://www.coursera.org/learn/ai-for-everyone",
+        "description": "Andrew Ng's non-technical AI course for everyone. Week 1 solidifies your conceptual foundation."
+      },
+      "tasks": [
+        "Complete Week 1 of AI For Everyone by Andrew Ng",
+        "Review all prompts from this week — pick your top 3",
+        "Write your goal for Week 2 and put it somewhere visible"
+      ],
+      "tip": "Reflection is what turns practice into real skill. The 20 minutes you spend here will accelerate everything that follows."
+    },
+    {
+      "day": 8,
+      "week": 1,
+      "title": "Chain-of-thought prompting",
+      "description": "Five words that dramatically improve AI reasoning: 'Let's think step by step.' Chain-of-thought is one of the most research-backed techniques available.",
+      "course": {
+        "name": "Prompt Engineering Guide — CoT Chapter",
+        "by": "PromptingGuide.ai · Free",
+        "free": true,
+        "duration": "20 min read",
+        "url": "https://www.promptingguide.ai/techniques/cot",
+        "description": "The most cited free resource on chain-of-thought prompting. Clear examples and research-backed techniques."
+      },
+      "tasks": [
+        "Read the full CoT chapter at PromptingGuide.ai",
+        "Try 'Think step by step' on 5 different problems or tasks",
+        "Compare CoT vs. standard responses — what specifically changed?"
+      ],
+      "tip": "'Let's think step by step' is one of the most powerful 5-word prompts ever discovered in AI research."
+    },
+    {
+      "day": 9,
+      "week": 1,
+      "title": "Persona & role prompting",
+      "description": "Assigning an expert role to AI changes everything: the vocabulary, depth, tone, and perspective of the response shifts dramatically.",
+      "course": {
+        "name": "Prompt Engineering for ChatGPT — Module 3",
+        "by": "Vanderbilt University · Coursera",
+        "free": true,
+        "duration": "~1 hr",
+        "url": "https://www.coursera.org/learn/prompt-engineering",
+        "description": "Covers the Persona Pattern and expert role assignment with real examples and exercises."
+      },
+      "tasks": [
+        "Complete Module 3 of the Vanderbilt course",
+        "Try 5 different expert personas on the same task",
+        "Document how tone, vocabulary, and depth change with each persona"
+      ],
+      "tip": "Persona prompting is like having access to a specialist for every task, for free, instantly."
+    },
+    {
+      "day": 10,
+      "week": 1,
+      "title": "Negative prompting & constraints",
+      "description": "Telling AI what NOT to do is just as powerful as telling it what to do. Constraints improve quality and force more creative thinking.",
+      "course": {
+        "name": "Advanced Prompt Techniques",
+        "by": "PromptingGuide.ai · Free",
+        "free": true,
+        "duration": "30 min read",
+        "url": "https://www.promptingguide.ai/techniques",
+        "description": "Covers negative prompting, output constraints, and how to refine prompts to eliminate unwanted patterns."
+      },
+      "tasks": [
+        "Read the techniques section at PromptingGuide.ai",
+        "Write 5 prompts combining positive AND negative instructions",
+        "Try: 'No clichés', 'Don't use jargon', 'Avoid bullet points'"
+      ],
+      "tip": "Constraints often improve creativity. Limits force better solutions."
+    },
+    {
+      "day": 11,
+      "week": 1,
+      "title": "System prompts & custom instructions",
+      "description": "System prompts define the AI's 'character' for an entire session. They're the most powerful tool for building consistent, reliable AI assistants.",
+      "course": {
+        "name": "Building Systems with the ChatGPT API",
+        "by": "DeepLearning.AI · Free",
+        "free": true,
+        "duration": "~1 hr",
+        "url": "https://www.deeplearning.ai/short-courses/building-systems-with-chatgpt/",
+        "description": "Covers system prompts, multi-turn conversations, and building AI-powered systems. Coding parts are optional."
+      },
+      "tasks": [
+        "Complete the DeepLearning.AI systems short course",
+        "Write a custom system prompt for your personal AI assistant",
+        "Test it with 10 different user messages — refine based on results"
+      ],
+      "tip": "System prompts define the character of the AI for an entire session. Master this and you've built your own assistant."
+    },
+    {
+      "day": 12,
+      "week": 1,
+      "title": "Prompt templates & reusability",
+      "description": "Templates are your productivity multiplier. Build a prompt once, use it for every similar task forever.",
+      "course": {
+        "name": "ChatGPT & AI Prompt Templates",
+        "by": "Udemy · (search for free coupon)",
+        "free": false,
+        "duration": "2–3 relevant sections",
+        "url": "https://www.udemy.com/topic/chatgpt/",
+        "description": "Practical course on building reusable prompt templates. Search for free coupon codes on CouponScorpion.com before purchasing."
+      },
+      "tasks": [
+        "Build 3 reusable prompt templates using [TOPIC], [TONE], [AUDIENCE] variables",
+        "Test each template with 3 different inputs to verify it works broadly",
+        "Add all templates to your prompt bank with usage notes"
+      ],
+      "tip": "Templates are your competitive advantage. One hour building them saves hundreds of hours later."
+    },
+    {
+      "day": 13,
+      "week": 1,
+      "title": "Handling AI mistakes & hallucinations",
+      "description": "AI is confidently wrong sometimes. Understanding why this happens — and how to prompt around it — is a critical professional skill.",
+      "course": {
+        "name": "Why AI Hallucinates — MIT Explainer",
+        "by": "MIT News · Free article",
+        "free": true,
+        "duration": "30 min reading",
+        "url": "https://news.mit.edu/2023/explained-generative-ai-0208",
+        "description": "MIT's explainer on generative AI reliability, hallucinations, and the fundamental reasons LLMs make things up."
+      },
+      "tasks": [
+        "Read the MIT article on AI hallucinations",
+        "Practice prompting AI to signal uncertainty: 'If unsure, say so'",
+        "Add reliability checks to 5 of your most-used prompts"
+      ],
+      "tip": "Always verify important facts. AI is confident even when wrong. Your judgment is the quality filter."
+    },
+    {
+      "day": 14,
+      "week": 1,
+      "title": "Week 2 project — build a prompt library",
+      "description": "Your Week 2 deliverable: a structured, organized prompt library you'll use for the rest of the 30 days and beyond.",
+      "course": {
+        "name": "Prompt Library in Notion — Tutorial",
+        "by": "YouTube · Free walkthroughs",
+        "free": true,
+        "duration": "20–30 min",
+        "url": "https://www.youtube.com/results?search_query=prompt+library+notion+template",
+        "description": "Search 'prompt library Notion template' on YouTube. Multiple free tutorials walk through setting up organized prompt databases."
+      },
+      "tasks": [
+        "Create a structured prompt library in Notion or Google Docs",
+        "Organize by category: Writing, Research, Marketing, Coding, Analysis",
+        "Add at least 20 prompts with notes on when and how to use each"
+      ],
+      "tip": "Your prompt library is your most valuable AI asset. It compounds in value every day you add to it."
+    },
+    {
+      "day": 15,
+      "week": 2,
+      "title": "AI for blog writing",
+      "description": "AI as a co-writer — not a ghostwriter. Today you learn to use AI to draft faster while keeping your authentic voice in the final piece.",
+      "course": {
+        "name": "AI-Powered Writing & Content",
+        "by": "HubSpot Academy · Free",
+        "free": true,
+        "duration": "~1.5 hrs",
+        "url": "https://academy.hubspot.com/courses/content-marketing",
+        "description": "HubSpot's free content marketing course with an AI writing module covering blog creation, SEO, and editing AI drafts."
+      },
+      "tasks": [
+        "Complete the AI writing module in HubSpot Academy",
+        "Write a full blog post outline with AI assistance",
+        "Draft one complete section using AI, then rewrite it in your own voice"
+      ],
+      "tip": "AI is a co-writer, not a ghostwriter. Your edits, perspective, and experience make content valuable."
+    },
+    {
+      "day": 16,
+      "week": 2,
+      "title": "Social media content at scale",
+      "description": "The biggest unlock in social media: create 30 days of content in one session. Today you build a replicable system for high-volume content creation.",
+      "course": {
+        "name": "Social Media Marketing with AI",
+        "by": "Meta Blueprint · Free",
+        "free": true,
+        "duration": "~1 hr",
+        "url": "https://www.facebook.com/business/learn/courses",
+        "description": "Meta's free social media content strategy course. Combine with AI tools to create content at scale across platforms."
+      },
+      "tasks": [
+        "Complete the Meta Blueprint social strategy module",
+        "Write 30 social posts on one topic using AI",
+        "Create a 2-week content calendar for one platform"
+      ],
+      "tip": "Batch content creation with AI. Produce a full month of posts in an hour."
+    },
+    {
+      "day": 17,
+      "week": 2,
+      "title": "Email marketing copy",
+      "description": "Email is still the highest-ROI content format. Today you master AI-assisted email copywriting: subject lines, body copy, sequences, and CTAs.",
+      "course": {
+        "name": "Email Marketing Certification — Module 5",
+        "by": "HubSpot Academy · Free",
+        "free": true,
+        "duration": "~45 min",
+        "url": "https://academy.hubspot.com/courses/email-marketing",
+        "description": "Module 5 on copywriting covers email structure, subject line psychology, and CTAs — then apply AI to execute each."
+      },
+      "tasks": [
+        "Complete Module 5 of HubSpot's email marketing course",
+        "Write a cold outreach email and a 3-email welcome sequence using AI",
+        "Generate 5 subject line variations for each email and compare them"
+      ],
+      "tip": "Test subject lines with AI before sending. Ask it to predict open rates and explain why."
+    },
+    {
+      "day": 18,
+      "week": 2,
+      "title": "Video scripts & YouTube content",
+      "description": "Video is the highest-reach content format. AI dramatically speeds up scriptwriting, structuring hooks, and generating title ideas.",
+      "course": {
+        "name": "YouTube Creator Academy — Scripting",
+        "by": "YouTube · Free",
+        "free": true,
+        "duration": "Scripting module (~1 hr)",
+        "url": "https://creatoracademy.youtube.com/",
+        "description": "YouTube's official creator training on scripting, hooks, and storytelling structure. Use AI to execute what you learn here."
+      },
+      "tasks": [
+        "Study the YouTube Creator Academy scripting module",
+        "Write a full 3-minute video script on a topic you know — AI-assisted",
+        "Generate 10 title ideas and 5 thumbnail text options with AI"
+      ],
+      "tip": "The hook — your first 15 seconds — matters most. Spend the most prompt iterations here."
+    },
+    {
+      "day": 19,
+      "week": 2,
+      "title": "SEO content with AI",
+      "description": "SEO + AI is one of the most valuable skill combinations right now. Today you produce search-optimized content at scale without sacrificing quality.",
+      "course": {
+        "name": "SEO Certification — Content Module",
+        "by": "HubSpot Academy · Free",
+        "free": true,
+        "duration": "~1.5 hrs",
+        "url": "https://academy.hubspot.com/courses/seo-training-course",
+        "description": "Learn SEO fundamentals, then use AI to execute: keyword research, content briefs, meta descriptions, and FAQ sections."
+      },
+      "tasks": [
+        "Complete the HubSpot SEO and content module",
+        "Write a 500-word SEO-optimized article section with AI assistance",
+        "Use AI to generate meta descriptions, H2 headings, and FAQ answers"
+      ],
+      "tip": "Combine AI speed with human SEO judgment. Never publish without reviewing for accuracy and originality."
+    },
+    {
+      "day": 20,
+      "week": 2,
+      "title": "AI images & visual content",
+      "description": "Words aren't the only content AI can create. Today you explore AI image generation: how to write prompts that produce professional-quality visuals.",
+      "course": {
+        "name": "Midjourney & AI Image — Beginner Guide",
+        "by": "YouTube · Free tutorials",
+        "free": true,
+        "duration": "30–45 min",
+        "url": "https://www.youtube.com/results?search_query=midjourney+beginner+guide+2025",
+        "description": "Search 'Midjourney beginner guide 2025' or 'DALL-E 3 tutorial' on YouTube. Many excellent free walkthroughs available."
+      },
+      "tasks": [
+        "Watch one complete beginner tutorial on an AI image generation tool",
+        "Write your first 10 image prompts: style + subject + mood + lighting",
+        "Generate images and compare — which prompts produced the best results?"
+      ],
+      "tip": "Image prompts work best with specific adjectives: 'photorealistic', 'flat illustration', 'cinematic lighting'."
+    },
+    {
+      "day": 21,
+      "week": 2,
+      "title": "Week 3 project — full content package",
+      "description": "Your Week 3 deliverable: a complete content package for one topic or product. This becomes your portfolio piece.",
+      "course": {
+        "name": "Content Strategy for Professionals — Week 1",
+        "by": "Northwestern University · Coursera",
+        "free": true,
+        "duration": "~1 hr",
+        "url": "https://www.coursera.org/learn/content-strategy",
+        "description": "Northwestern's strategic content course. Audit Week 1 to learn how to think about content packages holistically."
+      },
+      "tasks": [
+        "Complete Week 1 of Northwestern's content strategy course",
+        "Create your full package: 1 blog, 5 social posts, 1 email, 3 images",
+        "Review everything and add your authentic voice to every piece"
+      ],
+      "tip": "This project is your portfolio piece. Focus on quality over speed today."
+    },
+    {
+      "day": 22,
+      "week": 3,
+      "title": "Build an AI workflow",
+      "description": "Individual prompts are powerful. AI workflows are transformative. Today you map and build a repeatable system that automates a real weekly task.",
+      "course": {
+        "name": "AI Automation & Workflow Design",
+        "by": "Make.com Academy · Free",
+        "free": true,
+        "duration": "~1 hr",
+        "url": "https://www.make.com/en/academy",
+        "description": "Make (formerly Integromat) offers free courses on automating workflows with AI. Learn to chain tools and automate repeatable tasks."
+      },
+      "tasks": [
+        "Complete the Make.com intro to automation course",
+        "Map one real weekly task that could be AI-assisted",
+        "Build and test a step-by-step AI workflow for that task — time yourself"
+      ],
+      "tip": "The goal isn't to replace your work. It's to spend more time on the parts only you can do."
+    },
+    {
+      "day": 23,
+      "week": 3,
+      "title": "AI for research & summarization",
+      "description": "AI can read, compare, and summarize sources faster than any human. Today you develop a repeatable research process using AI as your assistant.",
+      "course": {
+        "name": "Perplexity AI Research Tutorial",
+        "by": "YouTube · Free",
+        "free": true,
+        "duration": "20–30 min",
+        "url": "https://www.youtube.com/results?search_query=perplexity+ai+tutorial+2025",
+        "description": "Search 'Perplexity AI tutorial 2025' on YouTube. Learn to use AI for deep research, source comparison, and structured summarization."
+      },
+      "tasks": [
+        "Learn Perplexity AI via a YouTube tutorial",
+        "Paste a long article into Claude and practice extracting key takeaways",
+        "Use AI to compare 3 different sources on one topic you care about"
+      ],
+      "tip": "AI can read faster than you. Use it as a research assistant, not a replacement for your own judgment."
+    },
+    {
+      "day": 24,
+      "week": 3,
+      "title": "Prompt chaining & multi-step tasks",
+      "description": "The output of one prompt becomes the input of the next. Prompt chains simulate a creative team working in sequence.",
+      "course": {
+        "name": "LangChain for LLM Application Development",
+        "by": "DeepLearning.AI · Free",
+        "free": true,
+        "duration": "~1.5 hrs",
+        "url": "https://www.deeplearning.ai/short-courses/langchain-for-llm-application-development/",
+        "description": "Andrew Ng's course on chaining AI prompts into multi-step workflows. Focus on the concepts — the code is optional."
+      },
+      "tasks": [
+        "Complete the LangChain short course (concepts first, code optional)",
+        "Design a 5-step prompt chain: idea → expand → write → critique → revise",
+        "Test your chain on a real project and document what each step produces"
+      ],
+      "tip": "Prompt chains simulate a creative team working together. Each step builds on the last."
+    },
+    {
+      "day": 25,
+      "week": 3,
+      "title": "AI tools ecosystem deep dive",
+      "description": "There are dozens of AI tools available. Today you map the landscape, test the key ones, and build your personal toolkit.",
+      "course": {
+        "name": "Generative AI Tools Overview",
+        "by": "LinkedIn Learning · Free trial",
+        "free": false,
+        "duration": "~2 hrs",
+        "url": "https://www.linkedin.com/learning/topics/generative-ai",
+        "description": "LinkedIn Learning's overview of the AI tools landscape. Free with a 1-month trial. Covers Claude, ChatGPT, Gemini, Jasper, Perplexity and more."
+      },
+      "tasks": [
+        "Complete the LinkedIn Learning AI tools overview (free trial)",
+        "Run the same prompt in Claude, ChatGPT, and Gemini — compare results",
+        "Choose your 2–3 primary tools based on what fits your workflow best"
+      ],
+      "tip": "Different AI tools have different strengths. Build a toolkit, not a single dependency."
+    },
+    {
+      "day": 26,
+      "week": 3,
+      "title": "Ethical AI & responsible use",
+      "description": "Being a responsible AI user is a professional skill. Understanding bias, hallucinations, copyright, and appropriate use builds trust.",
+      "course": {
+        "name": "Responsible AI Practices",
+        "by": "Google Cloud Skills Boost · Free",
+        "free": true,
+        "duration": "~1 hr",
+        "url": "https://www.cloudskillsboost.google/course_templates/554",
+        "description": "Google's official responsible AI course covering bias, fairness, transparency, and ethical use in real-world applications."
+      },
+      "tasks": [
+        "Complete Google's Responsible AI course",
+        "Write your personal AI use policy — one page, honest and specific",
+        "List 5 tasks where you will use AI and 5 where you won't"
+      ],
+      "tip": "Being a responsible AI user is a professional skill. It builds trust in every relationship where AI is involved."
+    },
+    {
+      "day": 27,
+      "week": 3,
+      "title": "Teach what you know",
+      "description": "Teaching is the fastest path to mastery. If you can explain a concept clearly to someone else, you truly understand it.",
+      "course": {
+        "name": "The Feynman Technique",
+        "by": "YouTube · Free explainers",
+        "free": true,
+        "duration": "15 min",
+        "url": "https://www.youtube.com/results?search_query=feynman+technique+explained",
+        "description": "Search 'Feynman Technique explained' on YouTube. Learn to teach concepts simply — the fastest known method for solidifying your knowledge."
+      },
+      "tasks": [
+        "Write a short guide: '5 prompts every [your profession] should know'",
+        "Explain one AI concept to a friend or colleague today",
+        "Post one AI tip or insight on LinkedIn, X, or in a community"
+      ],
+      "tip": "Teaching is the fastest path to mastery. If you can explain it simply, you own it."
+    },
+    {
+      "day": 28,
+      "week": 3,
+      "title": "Final project — showcase piece",
+      "description": "Your 30-day finale: build something real. This is your proof of skill — more valuable than any certificate.",
+      "course": {
+        "name": "Portfolio Building with Google Career Resources",
+        "by": "Grow with Google · Free",
+        "free": true,
+        "duration": "~1 hr",
+        "url": "https://grow.google/certificates/",
+        "description": "Google's free career development resources on building an AI skills portfolio and presenting your work professionally."
+      },
+      "tasks": [
+        "Build a real deliverable: newsletter, content strategy, landing page, or tool",
+        "Use at least 5 prompting techniques from the past 4 weeks",
+        "Document your process — what AI helped with vs. what you added"
+      ],
+      "tip": "Real output beats any certificate. This project is your portfolio. Make it count."
+    },
+    {
+      "day": 29,
+      "week": 3,
+      "title": "Review & gap analysis",
+      "description": "30 days is a beginning, not an end. Today you honestly assess where you've grown, where the gaps are, and chart your next steps.",
+      "course": {
+        "name": "Advanced Prompt Engineering — What's Next",
+        "by": "Towards Data Science · Free",
+        "free": true,
+        "duration": "30 min reading",
+        "url": "https://towardsdatascience.com/tagged/prompt-engineering",
+        "description": "Search 'advanced prompt engineering 2025' on Medium or Towards Data Science to find articles pointing to your next learning frontier."
+      },
+      "tasks": [
+        "Review your prompt library — what categories are still thin?",
+        "Identify 3 specific areas where you still feel uncertain",
+        "Find one course, community, or book to go deeper into your weakest area"
+      ],
+      "tip": "30 days is a beginning, not an end. Identify your next level now while the momentum is alive."
+    },
+    {
+      "day": 30,
+      "week": 3,
+      "title": "Celebrate & plan what's next",
+      "description": "You did it. 30 days of consistent, deliberate AI learning. Take a moment to acknowledge that — then set your next target.",
+      "course": {
+        "name": "AI Power User — Andrew Ng's Newest Course",
+        "by": "DeepLearning.AI · Free",
+        "free": true,
+        "duration": "~2 hrs",
+        "url": "https://www.deeplearning.ai/short-courses/",
+        "description": "Andrew Ng's newest course on becoming an AI power user in your daily work. The perfect graduation course for Day 30."
+      },
+      "tasks": [
+        "Complete Andrew Ng's AI Power User course as your 30-day graduation",
+        "Write a reflection: what changed in 30 days? What surprised you?",
+        "Set your 60-day AI goal and share one win or insight publicly"
+      ],
+      "tip": "You started. You showed up. That's what most people never do. Now keep building."
+    }
+  ]
+}
